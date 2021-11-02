@@ -1,0 +1,10 @@
+#home,
+#profile,
+#messages,
+#settings {
+  position: relative;
+}
+
+body {
+  overflow: hidden;
+}
