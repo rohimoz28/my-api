@@ -30,7 +30,7 @@ $url = "http://localhost/my-api/";
           <li class="nav-item active">
             <a class="nav-link" href="<?= $url ?>">Beranda</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="<?= $url . 'jadwal-sholat' ?>">Jadwal Sholat</a>
           </li>
           <li class="nav-item dropdown">
@@ -43,14 +43,8 @@ $url = "http://localhost/my-api/";
               <a class="dropdown-item" href="<?= $url . 'sepak-bola/liga-jerman.php' ?>">Liga Jerman</a>
             </div>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              BMKG
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="<?= $url . 'bmkg/index.php' ?>">Info Cuaca</a>
-              <a class="dropdown-item" href="<?= $path . 'bmkg/gempa.php' ?>">Gempa Terakhir</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= $url . 'bmkg/index.php' ?>">BMKG</a>
           </li>
         </ul>
       </div>
